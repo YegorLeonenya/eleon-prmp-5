@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">L5WeatherAPI</string>
+    <string name="icon_description">Current weather icon</string>
+    <string name="temperature">Temperature: </string>
+    <string name="pressure">Pressure: </string>
+    <string name="humidity">Humidity: </string>
+    <string name="cloudiness">Cloudiness: </string>
+    <string name="wind">Wind: </string>
+    <string name="celsius">°C</string>
+    <string name="refresh">Update</string>
+    <string name="refreshed">Updated</string>
+    <string name="search_hint">City search</string>
+    <string name="action_search">Search</string>
+    <string name="instruction">Info</string>
+    <string name="instruction_message">English please</string>
+    <string name="ok">OK</string>
+</resources>

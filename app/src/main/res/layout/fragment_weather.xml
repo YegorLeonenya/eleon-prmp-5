@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_fragment_current_weather"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_background_2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_weather_icon"
+        android:layout_width="155dp"
+        android:layout_height="115dp"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/icon_description" />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="11pt" />
+
+    <LinearLayout
+        android:id="@+id/ll_other_current_params"
+        android:layout_width="wrap_content"
+        android:layout_height="378dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_other_current_params_labels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_current_temperature_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="@string/temperature"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_pressure_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pressure"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_humidity_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/humidity"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_cloudiness_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloudiness"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_wind_speed_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wind"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_other_current_params_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_current_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_cloudiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+            <TextView
+                android:id="@+id/tv_current_wind_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:textSize="10pt" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
